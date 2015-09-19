@@ -7,16 +7,16 @@ This repo was originally created by [Wells Riley](https://github.com/wellsriley)
 
 The font is adapted from San Francisco – Apple’s new typeface for the Apple Watch. This project was inspired by jenskutilek’s [Fira System Font Replacement](https://github.com/jenskutilek/FiraSystemFontReplacement). The fonts were generated using dtinth's [Yosemite System Font Patcher](https://github.com/dtinth/YosemiteSystemFontPatcher).
 
-![example](https://raw.githubusercontent.com/supermarin/YosemiteSanFranciscoFont/master/Example.png)
+![example](https://raw.githubusercontent.com/mrjayviper/YosemiteSanFranciscoFont/master/Example.png)
 
 ## Easy Install
 Run this command from **Terminal.app**:
 ```bash
-ruby -e "$(curl -fsSL https://raw.github.com/supermarin/YosemiteSanFranciscoFont/master/install)"
+ruby -e "$(curl -fsSL https://raw.github.com/mrjayviper/YosemiteSanFranciscoFont/master/install)"
 ```
 
 ### Manual Install:
-1. [Download the zipped font files](https://github.com/supermarin/YosemiteSanFranciscoFont/archive/master.zip).
+1. [Download the zipped font files](https://github.com/mrjayviper/YosemiteSanFranciscoFont/archive/master.zip).
 2. Copy the 5 font files to `/Library/Fonts` on your Mac. *(protip: press `cmd+shift+g` while in Finder to type the path directly.)* **Important note: this is the `/Library/Fonts` folder, not `~/Library/Fonts`.**
 3. Run `sudo chown root:wheel /Library/Fonts/System\ San\ Francisco*` to set the proper ownership of the font files.
 4. Run `sudo atsutil databases -remove` to clear the OS X Font Cache
